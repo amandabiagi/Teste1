@@ -1,0 +1,267 @@
+@font-face {
+    font-family: 'fontehp';
+    src: url(./harry_p/HARRYP__.TTF);
+}
+
+/* Background geral */
+body{
+    background-image:url(fundohp7.jpg);
+    background-size: 99%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(0, 0, 0)
+}
+
+
+
+/* Cabeçalho topo */
+#topo_pai{
+    background-color: rgba(0, 0, 0, 0.863);
+    margin-top: -7.2px;
+    width: 100%;    
+    height: 15vh;
+    opacity: 1;
+}
+
+.topo_filho{
+    margin-top: 3%;
+    margin-left: 12%;
+    float: left;
+    background-color: rgba(0, 0, 0, 0);
+    width: 10vw;
+    height: 10vh;
+    font-size: 110%;
+}
+
+#portal{
+    font-family: 'fontehp';
+    font-size: 27px;
+    color: yellow;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    animation-name: testeportal;
+    animation-duration: 3s;
+}
+@keyframes testeportal{
+    from{
+        opacity: 0;
+        transform: scale(0.70);  
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+#portal:hover{
+    font-family: 'fontehp';
+    transform: scale(1.4);
+    transition: .4s ease-in-out;
+    border: none
+
+}
+
+#noticias{
+    text-decoration: none;
+    font-size: 27px;
+    margin-left: 15%;
+    font-family: 'fontehp';
+     color: yellow;
+    outline: none;
+    border: none;
+    animation-name: testenoticias;
+    animation-duration: 2s;
+}
+@keyframes testenoticias{
+    from{
+        opacity: 0;
+        transform: scale(0.95);  
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+#noticias:hover{
+    font-family: 'fontehp';
+    transform: scale(1.4);
+    transition: .2s ease-in-out;
+    border: none;
+}
+
+#escola{
+    font-size: 27px;
+    font-family: 'fontehp';
+    color: yellow;
+    outline: none;
+    border: none;
+    animation-name: testeescola;
+    animation-duration: 1s;
+}
+@keyframes testeescola{
+    from{
+        opacity: 0;
+        transform: scale(0.95);  
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+#escola:hover{
+    font-family: 'fontehp';
+    transform: scale(1.4);
+    transition: .2 ease-in-out;
+    border: none;
+}
+
+#principal{
+    outline: none;
+    border: none;
+    margin-top: -1%;;
+}
+
+#principal img{
+
+    margin-top: 15%;
+    width: 11vw;
+    margin-left: -20%;
+}
+
+#topo_filho2{
+    background-color: cadetblue;
+}
+
+
+/* Parte do meio */
+#meio_pai{
+    width: 96.7vw;
+    height: 120.35vh;
+    padding: 0.5%;
+}
+
+
+
+/* Parte dos dados */
+.meio_filho{
+    margin-top: 4%;
+    width: 594px;
+    height: 720px;
+    animation-name: teste;
+    animation-duration: 2s;
+}
+@keyframes teste{
+    from{
+        opacity: 0;
+        transform: scale(0.95);  
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+.meio_filho img{
+
+    margin-top: 7%;
+    margin-left: 7%;
+    width: 564px;
+    height: 900px;
+    box-shadow: 10px 9px 17px rgba(0, 0, 0, 0.623);
+}
+
+.dados {
+    margin-top: -555px;
+    margin-left: 100px;
+
+}
+
+.dados input{
+    width: 400px;
+    background-color: transparent;
+    border: transparent;
+    outline: none;
+    border-bottom: 1px black  solid;
+    padding: 2.5%;
+}
+
+.dados input::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.dados button{
+    margin-top: 20px;
+    margin-left: 65px;
+    border-radius: 5px;
+    width: 300px;
+    outline: none;
+    border: none;
+    transition: .2s ease-in-out;
+}
+
+.dados button:hover{
+    background-color: rgb(138, 72, 34);
+    transform: scale(1.1);
+    transition: .2s ease-in-out;
+}
+
+#div2{
+    color: red;
+    margin-left: 1.5vw;
+    margin-top: 3%;
+    font-size: 1.2rem;
+}
+
+
+
+/* Parte de baixo */
+
+#baixo_pai{
+    background-color: cornflowerblue;
+    width: 97.67vw;
+    height: 99vh;
+}
+
+
+/* Ultima parte */
+#ultimo_pai{
+    width: 97.64vw;
+    height: 50vh;
+    background-color: rgb(5, 8, 1);
+}
+
+.ultimo_filho{
+    margin-top: 1%;
+    margin-left: 12.5%;
+    float: left;
+    background-color: rgba(15, 1, 1, 0.925);
+    border: solid yellow 2px;
+    border-radius: 7px;
+    width: 15vw;
+    height: 25vh;
+}
+
+#ultimo_escola{
+    background-image: url(escola.png);
+
+}
+
+#ultimo_noticias{
+    background-image: url(noticias.png);
+    margin-left: 60vh;
+}
+
+#ultimo_portal{
+    background-image: url(portal.png);
+    margin-left: 120vh;
+    float: left;
+    margin-top: -25.5vh;
+}
